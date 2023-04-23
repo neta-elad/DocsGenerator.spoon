@@ -1,0 +1,41 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+
+    ],
+    "stripped_doc" : [
+
+    ],
+    "Deprecated" : [
+
+    ],
+    "desc" : "A menubar applet to generate Spoon docs",
+    "type" : "Module",
+    "Constructor" : [
+
+    ],
+    "doc" : "A menubar applet to generate Spoon docs",
+    "items" : [
+
+    ],
+    "Command" : [
+
+    ],
+    "Method" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "name" : "DocsGenerator"
+  }
+]
