@@ -9,7 +9,7 @@ setmetatable(obj, obj)
 
 -- Metadata
 obj.name = "DocsGenerator"
-obj.version = "0.0.5"
+obj.version = "0.0.6"
 obj.author = "Neta Elad <elad.neta@gmail.com>"
 obj.homepage = "https://github.com/netaelad/DocsGenerator.spoon"
 obj.license = "MIT - https://opensource.org/licenses/MIT"
