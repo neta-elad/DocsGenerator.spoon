@@ -17,7 +17,7 @@ obj.license = "MIT - https://opensource.org/licenses/MIT"
 -- Local
 local function openPicker()
     local spoons = hs.dialog.chooseFileOrFolder(
-        "Choose Spoon directory", 
+        "Choose Spoon directory",
         os.getenv("HOME") .. "/.hammerspoon/Spoons"
     )
     if not spoons then
@@ -32,7 +32,7 @@ end
 function obj:init()
     self.menubar = hs.menubar.new()
 
-    self.menubar:setIcon(hs.image.imageFromName("NSAdvanced"):setSize({w=16,h=16}))
+    self.menubar:setIcon(hs.image.imageFromName("NSAdvanced"):setSize({ w = 16, h = 16 }))
     self.menubar:setClickCallback(openPicker)
     self.menubar:setTooltip("Generate docs for Spoon")
 
