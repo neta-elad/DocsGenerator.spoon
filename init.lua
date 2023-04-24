@@ -9,9 +9,9 @@ setmetatable(obj, obj)
 
 -- Metadata
 obj.name = "DocsGenerator"
-obj.version = "0.0.9"
+obj.version = "0.0.10"
 obj.author = "Neta Elad <elad.neta@gmail.com>"
-obj.homepage = "https://github.com/netaelad/DocsGenerator.spoon"
+obj.homepage = "https://github.com/neta-elad/DocsGenerator.spoon"
 obj.license = "MIT - https://opensource.org/licenses/MIT"
 
 -- Local
